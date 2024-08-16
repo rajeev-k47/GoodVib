@@ -41,12 +41,10 @@ dependencies {
 }
 publishing {
     publications {
-        create<MavenPublication>("release") {
-            from(components.findByName("release") ?: components.findByName("java"))
-
-            groupId = "com.github.rajeev-k47"
-            artifactId = "GoodVib"
-            version = "1.0.0"
+        register<MavenPublication>("release") {
+            afterEvaluate{
+                from(components["release"])
+            }
         }
     }
     repositories {
