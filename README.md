@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 # GoodVib (An Android library for Accessibility in vibration effects.)
 
 
@@ -80,3 +82,5 @@ If you really like my project do star my Repository.
 
 Newer and Modified versions are yet to released. If you want to contribute to my project Please fork this repository and contribute back using
 [pull requests](https://github.com/rajeev-k47/GoodVib/pulls).
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
