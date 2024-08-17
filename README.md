@@ -79,4 +79,4 @@ This library enchances the clicking effects in android by using different patter
 If you really like my project do star my Repository.
 
 Newer and Modified versions are yet to released. If you want to contribute to my project Please fork this repository and contribute back using
-[pull requests]([https://github.com/rajeev-k47/GoodVib/pulls]).
+[pull requests](https://github.com/rajeev-k47/GoodVib/pulls).
