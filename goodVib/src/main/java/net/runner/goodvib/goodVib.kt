@@ -8,6 +8,10 @@ import androidx.annotation.RequiresApi
 
 
 object GoodVib {
+    fun cancelVibration(context: Context) {
+        val vibrator = context.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+        vibrator.cancel()
+    }
 
     @RequiresApi(Build.VERSION_CODES.O)
     fun vib(context: Context, duration: Any) {
