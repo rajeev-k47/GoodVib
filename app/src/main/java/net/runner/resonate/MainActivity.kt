@@ -10,6 +10,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.ui.platform.LocalContext
 import net.runner.goodvib.GoodVib
+import net.runner.goodvib.VibPattern
 import net.runner.resonate.ui.theme.ResonateTheme
 
 
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
 
                 Button(
                     onClick = {
-                        GoodVib.vib(context,100)
+                        GoodVib.vib(context,VibPattern.Buzz)
                     }
                 ) {
                     Text("Click Me")
